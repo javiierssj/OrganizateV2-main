@@ -1,0 +1,11 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar [color]="color">
+    <ion-buttons slot="start">
+      <ion-back-button *ngIf="backButton" [defaultHref]="backButton"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      <strong class="titulo">{{title}}</strong>
+      <div class="admin">Para que no te pillen tus planes!</div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
